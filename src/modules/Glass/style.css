@@ -1,0 +1,42 @@
+body{
+    background-image: url(/public/img/background1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;   
+}
+header{
+    padding: 20px 0;
+    background-color: rgba(63, 63, 63, 0.7);
+}
+.content .img-main{
+    height: 400px;
+}
+.content{
+    gap: 400px;
+    margin-top: 50px;
+}
+.glass img{
+    height: 140px;
+    width: 250px;
+}
+.content-img{
+    position: relative;
+}
+.option-img{
+    position:absolute;
+    top: 100px;
+    right: 64px;
+    height: 80px ;
+    width: 200px ;
+}
+.item-detail{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ff7f5066;
+    width: 100%;
+    padding: 0 20px;
+}
+.glass{
+    background-color: #fff;
+}
